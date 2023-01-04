@@ -1,21 +1,8 @@
 import "./App.css";
-import { useState } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
-  const [textColor, settextColor] = useState("green");
-
-  return (
-    <div className="App">
-      <button
-        onClick={() => {
-          settextColor(textColor === "green" ? "red" : "green");
-        }}
-      >
-        Show/Hide
-      </button>
-      <h1 style={{ color: textColor }}> Hi My Name is Achini</h1>
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
