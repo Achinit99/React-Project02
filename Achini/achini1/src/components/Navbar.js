@@ -9,8 +9,8 @@ function Navbar() {
         </h1>
         <ul>
           <li>
-            <a>
-              <i className="fa-solid fa-house-user">Home</i>
+            <a href="index.html">
+              <i className="fa-solid fa-house-user"> Home</i>
             </a>
           </li>
         </ul>
