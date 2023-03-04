@@ -18,15 +18,14 @@ export const MenuData = [
     icon: "fa-solid fa-briefcase",
   },
   {
-    title: "Home",
+    title: "Contact",
     url: "#",
     cName: "nav-link",
-    icon: "fa-solid fa-house-user",
+    icon: "fa-solid fa-address-book",
   },
   {
-    title: "Home",
+    title: "Sign Up",
     url: "#",
-    cName: "nav-link",
-    icon: "fa-solid fa-house-user",
+    cName: "nav-link-mobile",
   },
 ];
