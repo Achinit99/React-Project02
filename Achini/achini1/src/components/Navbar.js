@@ -1,5 +1,6 @@
 import React from "react";
 import { MenuData } from "./MenuData";
+import "./NavbarStyls.css";
 
 function Navbar() {
   return (
