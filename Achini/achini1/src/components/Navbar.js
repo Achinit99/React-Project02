@@ -8,7 +8,9 @@ function Navbar() {
           React <i className="fab fa-react"></i>
         </h1>
         <ul>
-          <li></li>
+          <li>
+            <a></a>
+          </li>
         </ul>
       </nav>
     </div>
