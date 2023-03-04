@@ -7,6 +7,9 @@ function Navbar() {
         <h1>
           React <i className="fab fa-react"></i>
         </h1>
+        <ul>
+          <li></li>
+        </ul>
       </nav>
     </div>
   );
