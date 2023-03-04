@@ -9,13 +9,13 @@ export const MenuData = [
     title: "About",
     url: "#",
     cName: "nav-link",
-    icon: "fa-solid fa-house-user",
+    icon: "fa-solid fa-circle-info",
   },
   {
-    title: "Home",
+    title: "Service",
     url: "#",
     cName: "nav-link",
-    icon: "fa-solid fa-house-user",
+    icon: "fa-solid fa-briefcase",
   },
   {
     title: "Home",
