@@ -6,10 +6,10 @@ function Navbar() {
   return (
     <div>
       <nav className="NavbarItem">
-        <h1>
+        <h1 className="logo">
           React <i className="fab fa-react"></i>
         </h1>
-        <ul>
+        <ul className="nav-menu">
           {MenuData.map((item, index) => {
             return (
               <li key={index}>
