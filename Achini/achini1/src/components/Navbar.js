@@ -10,8 +10,7 @@ function Navbar() {
         <ul>
           <li>
             <a>
-              {" "}
-              <i className="fa-solid fa-house-user"></i>
+              <i className="fa-solid fa-house-user">Home</i>
             </a>
           </li>
         </ul>
