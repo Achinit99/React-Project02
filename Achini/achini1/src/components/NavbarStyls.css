@@ -47,7 +47,7 @@
   padding-right: 10px;
 }
 
-.nav-link: hover {
+.nav-link:hover {
   background: rgb(80, 80, 238);
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
