@@ -3,6 +3,12 @@ import { MenuData } from "./MenuData";
 import "./NavbarStyls.css";
 
 function Navbar() {
+  // eslint-disable-next-line no-undef
+  state = { clicked: false };
+  // eslint-disable-next-line no-undef
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
   return (
     <div>
       <nav className="NavbarItem">
