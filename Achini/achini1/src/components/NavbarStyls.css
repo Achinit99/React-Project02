@@ -52,3 +52,7 @@
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 }
+
+.fa-bars {
+  color: #fff;
+}

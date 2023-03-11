@@ -10,7 +10,7 @@ function Navbar() {
           React <i className="fab fa-react"></i>
         </h1>
         <div className="menu-icons">
-          <i className="fas fa-bars"></i>
+          <i className={this.state.clicked}></i>
         </div>
         <ul className="nav-menu">
           {MenuData.map((item, index) => {
