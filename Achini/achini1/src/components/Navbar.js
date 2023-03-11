@@ -3,12 +3,6 @@ import { MenuData } from "./MenuData";
 import "./NavbarStyls.css";
 
 function Navbar() {
-  // eslint-disable-next-line no-undef
-  state = { clicked: false };
-  // eslint-disable-next-line no-undef
-  handleClick = () => {
-    this.setState({ clicked: !this.state.clicked });
-  };
   return (
     <div>
       <nav className="NavbarItem">
@@ -16,7 +10,7 @@ function Navbar() {
           React <i className="fab fa-react"></i>
         </h1>
         <div className="menu-icons">
-          <i className={this.state.clicked ? "fas fa-bars" : "fas fa-bars"}></i>
+          <i className="fab fa-bars"></i>
         </div>
         <ul className="nav-menu">
           {MenuData.map((item, index) => {
